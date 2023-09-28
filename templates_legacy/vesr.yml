@@ -35,6 +35,5 @@ eth_format: gi1/0/{0}
 console: telnet
 shutdown: 1
 qemu_arch: x86_64
-qemu_nic: e1000
 qemu_options: -machine type=pc-1.0,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -display none -vga std -rtc base=utc
 ...
