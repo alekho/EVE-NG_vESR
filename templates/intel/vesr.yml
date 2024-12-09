@@ -33,7 +33,7 @@ icon: Router.png
 cpu: 1
 ram: 3072
 ethernet: 4
-eth_format: gi1/0/{0}
+eth_format: gi1/0/{1}
 console: telnet
 shutdown: 1
 qemu_arch: x86_64
